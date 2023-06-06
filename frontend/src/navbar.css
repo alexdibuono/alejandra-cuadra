@@ -1,0 +1,136 @@
+.navbar__main {
+  background-color: #B08401;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: larger;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: #FAF6F2;
+  text-align: center;
+  padding: 28px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #c0ac6c;
+}
+
+.navbar__logo {
+  padding: 16px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.logo__link {
+  text-decoration: none;
+}
+
+.logo__alejandra {
+  color: #FAF6F2;
+}
+
+.logo__cuadra {
+  color: #683B2B;
+}
+
+.navbar__hamburger {
+  display: none;
+}
+
+.navbar__hamburger--none {
+  display: none;
+}
+
+.hamburger__icon--large {
+  display: none;
+}
+
+.hamburger__icon--medium {
+  display: none;
+}
+
+.close__icon--medium {
+  display: none;
+}
+
+.close__icon--large {
+  display: none;
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .navbar__links {
+    display: none;
+  }
+
+  .navbar__hamburger {
+    display: block;
+  }
+
+  .hamburger__icon--large {
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 17px;
+  }
+
+  .hamburger__icon--medium {
+    display: none;
+  }
+
+  .close__icon--medium {
+    display: none;
+  }
+
+  .close__icon--large {
+    display: none;
+  }
+
+  .hamburger__links {
+    text-align: center;
+    border-top: #FAF6F2 solid 1px;
+    background-color: #B08401;
+  }
+
+  .hamburger__links > li {
+    float: none;
+  }
+
+  .hamburger__links li > a {
+    width: 100%;
+    padding: 28px 0;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  .navbar__logo {
+    font-size: 1rem;
+  }
+
+  .hamburger__icon--large {
+    display: none;
+  }
+
+  .hamburger__icon--medium {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+  }
+
+}

@@ -1,0 +1,39 @@
+.footer {
+    background-color: #B08401;
+    height: 50px;
+    text-align: center;
+    color: #FAF6F2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+
+.copyrightIcon {
+    margin-top: 17px;
+    margin-right: 5px;
+}
+
+p {
+    font-size: large;
+}
+
+@media only screen and (max-width: 1050px) {
+    p {
+        font-size: medium;
+    }
+    .copyrightIcon {
+        margin-top: 14px;
+        margin-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    p {
+        font-size: smaller;
+    }
+    .copyrightIcon {
+        margin-top: 11px;
+        margin-right: 5px;
+    }
+}

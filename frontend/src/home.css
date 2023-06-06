@@ -1,0 +1,78 @@
+.home {
+    text-align: center;
+}
+
+.home .navbar {
+    background-color: #B08401;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+.home > h3 {
+    font-weight: lighter;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 1.5rem;
+}
+
+.home span {
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: 25px;
+}
+
+.home .home__cards {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    min-height: 80vh;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    margin: 10px 50px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .home > h3 {
+        width: 70%;
+        font-size: 1.5rem;
+        margin: 50px auto 30px auto;
+    }
+    .home span {
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 10px;
+    }
+
+    .home a {
+        text-decoration: none;
+        color: black;
+        margin: 10px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .home > h3 {
+        width: 90% !important;
+        font-size: 1.25rem;
+        margin: 20px auto 0 auto;
+    }
+    .home span {
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 7px;
+    }
+
+    .home .navbar__logo {
+        padding-top: 35px;
+    }
+
+
+}

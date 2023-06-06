@@ -1,0 +1,50 @@
+.about {
+    width: 100%;
+    background-color: #FAF6F2;
+    padding: 10px 0;
+}
+
+.header {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+    border-bottom: solid medium #c0ac6c;
+}
+
+.header > h1 {
+    font-size: 3rem;
+    color: #c0ac6c;
+}
+
+.main {
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid medium #c0ac6c;
+    margin: auto;
+    width: 80%;
+}
+
+.main__img {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+@media only screen and (max-width: 1050px) {
+    .main__img {
+        width: 80%;
+    }
+    .main p {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .main__img {
+        width: 80%;
+    }    
+    .main p {
+        font-size: 1rem;
+    }
+}
